@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/index.html",  
+        "headers": {
+          "Access-Control-Allow-Origin": "https://instyle.vercel.app",  
+          "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",  
+          "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With, Accept, Origin"  
+        }
+      }
+    ]
+  }
