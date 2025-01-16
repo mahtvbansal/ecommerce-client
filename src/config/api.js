@@ -16,3 +16,5 @@ api.defaults.headers.common['Authorization'] = `Bearer ${token}`;
 api.defaults.headers.post['Content-Type'] = 'application/json';
 
 export default api;
+
+
